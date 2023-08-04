@@ -1,16 +1,16 @@
-from django.shortcuts import render
-import matplotlib
-matplotlib.use('Agg')
-import yfinance as yf
-import matplotlib.pyplot as plt 
-import matplotlib.dates as mdates
-import io 
-import base64
-from .models import Record, UserProfile
-from django.contrib.auth.models import User
-from django.contrib.auth import login
-from django.contrib import messages
-from decimal import Decimal
+# from django.shortcuts import render
+# import matplotlib
+# matplotlib.use('Agg')
+# import yfinance as yf
+# import matplotlib.pyplot as plt 
+# import matplotlib.dates as mdates
+# import io 
+# import base64
+# from .models import Record, UserProfile
+# from django.contrib.auth.models import User
+# from django.contrib.auth import login
+# from django.contrib import messages
+# from decimal import Decimal
 from django.http import HttpResponse
 
 
