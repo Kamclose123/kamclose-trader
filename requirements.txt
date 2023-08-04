@@ -10,7 +10,6 @@ cycler==0.11.0
 dj-database-url==2.0.0
 Django==4.2.3
 yfinance==0.2.27
-fix-yahoo-finance==0.1.37
 fonttools==4.41.1
 frozendict==2.3.8
 gunicorn==21.2.0
